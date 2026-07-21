@@ -21,7 +21,7 @@ export default function Hero() {
           <img 
             src="/hero image.png" 
             alt="Adroit Industrial Building" 
-            style={{ width: '100%', maxWidth: '900px', height: 'auto', borderRadius: '12px', objectFit: 'cover', boxShadow: '0 20px 40px rgba(0,0,0,0.4)', border: '2px solid rgba(255, 255, 255, 0.15)' }} 
+            style={{ width: '100%', maxWidth: '900px', aspectRatio: '1 / 1', borderRadius: '12px', objectFit: 'cover', boxShadow: '0 20px 40px rgba(0,0,0,0.4)', border: '2px solid rgba(255, 255, 255, 0.15)' }} 
           />
         </div>
       </div>
