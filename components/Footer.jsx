@@ -27,11 +27,28 @@ export default function Footer() {
               <a href="#why">Why Choose Us</a>
               <a href="#faq">FAQs</a>
             </div>
-            <div className="footer-col">
+            <div className="footer-col" style={{ minWidth: '240px' }}>
               <h5>Get in Touch</h5>
-              <p>+91 90000 00000</p>
-              <p>projects@adroitdesign.example</p>
-              <p>Chennai, Tamil Nadu, India</p>
+              <p style={{ marginBottom: '16px' }}>
+                <a href="tel:+919940064343">+91 99400 64343</a>
+              </p>
+              <p style={{ marginBottom: '4px' }}><a href="mailto:info@adroitdesigns.in">info@adroitdesigns.in</a></p>
+              <p><a href="mailto:fm@adroitdesigns.in">fm@adroitdesigns.in</a></p>
+              
+              <h5 style={{ marginTop: '30px' }}>Corporate Office (Chennai)</h5>
+              <p>
+                No 8, MCN Nagar Extension,<br/>
+                Thoraipakkam, Chennai - 97.
+              </p>
+              
+              <h5 style={{ marginTop: '30px' }}>Branch Office 1 (Bengaluru)</h5>
+              <p>
+                SFD, P DOT G EMERALD, 16th A<br/>
+                Cross Rd, Karuna Nagar,<br/>
+                Electronic City Phase I,<br/>
+                Doddathoguru, Bengaluru -<br/>
+                560100, Karnataka, India
+              </p>
             </div>
           </div>
           <div className="footer-bottom">

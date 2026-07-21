@@ -1,3 +1,5 @@
+import QuoteButton from './QuoteButton';
+
 export default function Capabilities() {
   return (
     <section className="capabilities" id="capabilities">
@@ -50,6 +52,7 @@ export default function Capabilities() {
           </div>
         </div>
       </div>
+      <QuoteButton />
     </section>
   );
 }

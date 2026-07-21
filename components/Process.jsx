@@ -1,3 +1,5 @@
+import QuoteButton from './QuoteButton';
+
 export default function Process() {
   return (
     <section className="process" id="process">
@@ -30,6 +32,7 @@ export default function Process() {
           <p>Civil, PEB erection, MEP, HVAC and FPS installation, testing and handover of a commissioned facility.</p>
         </div>
       </div>
+      <QuoteButton />
     </section>
   );
 }
