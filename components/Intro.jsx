@@ -1,3 +1,5 @@
+import QuoteButton from './QuoteButton';
+
 export default function Intro() {
   return (
     <section className="intro" id="intro">
@@ -19,6 +21,7 @@ export default function Intro() {
           </div>
         </div>
       </div>
+      <QuoteButton />
     </section>
   );
 }

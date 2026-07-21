@@ -1,3 +1,5 @@
+import QuoteButton from './QuoteButton';
+
 export default function Testimonials() {
   return (
     <section className="testimonials">
@@ -21,6 +23,7 @@ export default function Testimonials() {
           </div>
         </div>
       </div>
+      <QuoteButton />
     </section>
   );
 }

@@ -1,5 +1,6 @@
 "use client";
 import { useState } from 'react';
+import QuoteButton from './QuoteButton';
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState(null);
@@ -56,6 +57,7 @@ export default function FAQ() {
           ))}
         </div>
       </div>
+      <QuoteButton />
     </section>
   );
 }

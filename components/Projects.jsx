@@ -1,3 +1,5 @@
+import QuoteButton from './QuoteButton';
+
 export default function Projects() {
   return (
     <section className="portfolio" id="projects">
@@ -34,6 +36,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
+      <QuoteButton />
     </section>
   );
 }
