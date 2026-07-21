@@ -15,10 +15,10 @@ export default function CTA() {
   return (
     <section className="cta" id="contact">
       <div className="wrap">
-        <p className="eyebrow">Start a Project</p>
+        <p className="eyebrow" style={{ color: "#3a2a0e" }}>Start a Project</p>
         <h2>Tell us about your facility. We'll send an engineering plan, not a sales pitch.</h2>
         <p>Share your requirement and our engineering team will respond within one business day with next steps.</p>
-        
+
         {!submitted ? (
           <form className="cta-form" onSubmit={handleSubmit}>
             <input type="text" placeholder="Full Name" required />
