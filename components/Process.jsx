@@ -5,10 +5,7 @@ export default function Process() {
     <section className="process" id="process">
       <div className="wrap">
         <div className="section-head">
-          <p className="eyebrow" style={{ color: 'var(--safety)', display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <span style={{ width: '40px', height: '1px', background: 'var(--safety)', display: 'inline-block' }}></span>
-            FROM CONCEPT TO COMPLETION.
-          </p>
+          <p className="eyebrow">From Concept to Completion</p>
           <h2>Our Work Process</h2>
           <p>A disciplined five-phase methodology — refined across hundreds of projects — ensures every build is delivered with precision, on time, and on budget.</p>
         </div>
