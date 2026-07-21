@@ -32,15 +32,24 @@ export default function Projects() {
             <div className="proj-info"><h4>Pharma Process Facility</h4><p>MEP · HVAC · PMC</p></div>
           </div>
           <div className="proj-card">
-            <div className="proj-thumb"><span className="tag">Manufacturing</span></div>
+            <div className="proj-thumb" style={{ position: 'relative', overflow: 'hidden' }}>
+              <img src="/fmcg_manufacturing.png" alt="FMCG Manufacturing Unit" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
+              <span className="tag" style={{ position: 'relative', zIndex: 1 }}>Manufacturing</span>
+            </div>
             <div className="proj-info"><h4>FMCG Manufacturing Unit</h4><p>Architecture · Civil · MEP</p></div>
           </div>
           <div className="proj-card">
-            <div className="proj-thumb"><span className="tag">Utility Block</span></div>
+            <div className="proj-thumb" style={{ position: 'relative', overflow: 'hidden' }}>
+              <img src="/utility_substation.png" alt="Utility & Substation Building" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
+              <span className="tag" style={{ position: 'relative', zIndex: 1 }}>Utility Block</span>
+            </div>
             <div className="proj-info"><h4>Utility &amp; Substation Building</h4><p>Civil · Electrical · HVAC</p></div>
           </div>
           <div className="proj-card">
-            <div className="proj-thumb"><span className="tag">Specialized</span></div>
+            <div className="proj-thumb" style={{ position: 'relative', overflow: 'hidden' }}>
+              <img src="/cold_storage.png" alt="Cold Storage & Specialized Facility" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
+              <span className="tag" style={{ position: 'relative', zIndex: 1 }}>Specialized</span>
+            </div>
             <div className="proj-info"><h4>Cold Storage &amp; Specialized Facility</h4><p>PEB · HVAC · FPS · PMC</p></div>
           </div>
         </div>
