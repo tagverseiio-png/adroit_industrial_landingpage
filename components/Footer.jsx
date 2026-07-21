@@ -62,8 +62,8 @@ export default function Footer() {
       </footer>
 
       <div className="mobile-cta-bar">
-        <a href="tel:+919000000000" className="call">📞 Call Now</a>
-        <a href="https://wa.me/919000000000?text=Hi%2C%20I%27m%20interested%20in%20your%20industrial%20project%20services" className="whatsapp" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
+        <a href="tel:+919940064343" className="call">📞 Call Now</a>
+        <a href="https://wa.me/919940064343?text=Hi%2C%20I%27m%20interested%20in%20your%20industrial%20project%20services" className="whatsapp" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
       </div>
     </>
   );
