@@ -17,11 +17,11 @@ export default function Hero() {
             <div><span className="num">4-8 Mo</span><span className="lbl">Avg. Shed Delivery</span></div>
           </div>
         </div>
-        <div className="hero-image-wrapper" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
+        <div className="hero-image-wrapper" style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', width: '100%', paddingLeft: '2rem' }}>
           <img 
             src="/hero image.png" 
             alt="Adroit Industrial Building" 
-            style={{ width: '100%', maxWidth: '500px', height: 'auto', borderRadius: '8px', objectFit: 'cover' }} 
+            style={{ width: '100%', maxWidth: '800px', height: '650px', borderRadius: '12px', objectFit: 'cover', boxShadow: '0 20px 40px rgba(0,0,0,0.4)', border: '2px solid rgba(255, 255, 255, 0.15)' }} 
           />
         </div>
       </div>
