@@ -5,8 +5,10 @@ export default function Process() {
     <section className="process" id="process">
       <div className="wrap">
         <div className="section-head">
-          <p className="eyebrow">From Concept to Completion</p>
-          <h2>Our Work Process</h2>
+          <p className="eyebrow" style={{ color: 'var(--safety)' }}>
+            HOW AN INDUSTRIAL PROJECT RUNS
+          </p>
+          <h2 style={{ textTransform: 'uppercase', fontFamily: 'var(--display)' }}>Four Stages, One Integrated Team</h2>
           <p>This is the actual sequence every Adroit Design industrial project follows, from feasibility to commissioning.</p>
         </div>
         
