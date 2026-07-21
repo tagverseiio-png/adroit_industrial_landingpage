@@ -5,32 +5,57 @@ export default function Process() {
     <section className="process" id="process">
       <div className="wrap">
         <div className="section-head">
-          <p className="eyebrow">How An Industrial Project Runs</p>
-          <h2>Four stages, one integrated team</h2>
-          <p>This is the actual sequence every Adroit Design industrial project follows, from feasibility to commissioning.</p>
+          <p className="eyebrow" style={{ color: 'var(--safety)', display: 'flex', alignItems: 'center', gap: '12px' }}>
+            <span style={{ width: '40px', height: '1px', background: 'var(--safety)', display: 'inline-block' }}></span>
+            FROM CONCEPT TO COMPLETION.
+          </p>
+          <h2>Our Work Process</h2>
+          <p>A disciplined five-phase methodology — refined across hundreds of projects — ensures every build is delivered with precision, on time, and on budget.</p>
         </div>
-      <div className="process-steps">
-        <div className="pstep">
-          <div className="step-no">01</div>
-          <h4>Feasibility &amp; Site Study</h4>
-          <p>Site survey, soil investigation, statutory checks and process brief before any design work begins.</p>
+        
+        <div className="process-timeline-container">
+          <div className="process-timeline-line"></div>
+          <div className="process-timeline-dots">
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <div className="dot"></div>
+          </div>
         </div>
-        <div className="pstep">
-          <div className="step-no">02</div>
-          <h4>Multidisciplinary Design</h4>
-          <p>Architecture, civil, PEB, MEP, HVAC and FPS designed together and clash-checked before approval.</p>
+
+        <div className="process-steps">
+          <div className="pstep">
+            <div className="step-no">01</div>
+            <h4>Understand</h4>
+            <div className="step-subtitle">PROJECT BRIEF & SITE ASSESSMENT</div>
+            <p>We listen first. Every project begins with a deep-dive into your vision, goals, and site conditions.</p>
+          </div>
+          <div className="pstep">
+            <div className="step-no">02</div>
+            <h4>Design</h4>
+            <div className="step-subtitle">DESIGN DEVELOPMENT & COST PLANNING</div>
+            <p>Our architects craft detailed designs, balancing aesthetics with budget precision.</p>
+          </div>
+          <div className="pstep">
+            <div className="step-no">03</div>
+            <h4>Engineer</h4>
+            <div className="step-subtitle">DETAILED ENGINEERING & PROCUREMENT</div>
+            <p>Structural and MEP engineers resolve every technical detail before ground breaks.</p>
+          </div>
+          <div className="pstep">
+            <div className="step-no">04</div>
+            <h4>Execute</h4>
+            <div className="step-subtitle">PROJECT EXECUTION & MANAGEMENT</div>
+            <p>On-site teams led by experienced project managers keep quality and timelines tight.</p>
+          </div>
+          <div className="pstep">
+            <div className="step-no">05</div>
+            <h4>Deliver</h4>
+            <div className="step-subtitle">TESTING, SNAG CLOSURE & HANDOVER</div>
+            <p>We don't leave until every snag is resolved and you're fully satisfied.</p>
+          </div>
         </div>
-        <div className="pstep">
-          <div className="step-no">03</div>
-          <h4>Approvals &amp; PMC</h4>
-          <p>Statutory and fire approvals coordinated in parallel with PMC oversight of cost and schedule.</p>
-        </div>
-        <div className="pstep">
-          <div className="step-no">04</div>
-          <h4>Execution &amp; Commissioning</h4>
-          <p>Civil, PEB erection, MEP, HVAC and FPS installation, testing and handover of a commissioned facility.</p>
-        </div>
-      </div>
       </div>
       <QuoteButton text="START YOUR PROJECT NOW" />
     </section>
