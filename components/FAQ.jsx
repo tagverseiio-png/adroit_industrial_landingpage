@@ -57,7 +57,7 @@ export default function FAQ() {
           ))}
         </div>
       </div>
-      <QuoteButton />
+      <QuoteButton text="STILL HAVE QUESTIONS? GET A QUOTE" />
     </section>
   );
 }

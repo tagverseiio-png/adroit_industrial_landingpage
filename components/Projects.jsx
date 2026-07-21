@@ -54,7 +54,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <QuoteButton />
+      <QuoteButton text="GET A PROJECT QUOTE" />
     </section>
   );
 }

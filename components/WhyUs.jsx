@@ -30,7 +30,7 @@ export default function WhyUs() {
           <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200&auto=format&fit=crop" alt="Industrial pre-engineered steel building structure by Adroit Design" loading="lazy" />
         </div>
       </div>
-      <QuoteButton />
+      <QuoteButton text="GET A CUSTOM QUOTE" />
     </section>
   );
 }

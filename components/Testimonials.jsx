@@ -23,7 +23,7 @@ export default function Testimonials() {
           </div>
         </div>
       </div>
-      <QuoteButton />
+      <QuoteButton text="REQUEST YOUR QUOTE TODAY" />
     </section>
   );
 }

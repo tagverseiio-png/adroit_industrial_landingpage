@@ -52,7 +52,7 @@ export default function Capabilities() {
           </div>
         </div>
       </div>
-      <QuoteButton />
+      <QuoteButton text="REQUEST A CAPABILITIES QUOTE" />
     </section>
   );
 }

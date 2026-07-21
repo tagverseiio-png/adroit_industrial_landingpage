@@ -21,7 +21,7 @@ export default function Intro() {
           </div>
         </div>
       </div>
-      <QuoteButton />
+      <QuoteButton text="GET AN INDUSTRIAL QUOTE" />
     </section>
   );
 }

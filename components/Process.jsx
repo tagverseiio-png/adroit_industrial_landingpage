@@ -32,7 +32,7 @@ export default function Process() {
           <p>Civil, PEB erection, MEP, HVAC and FPS installation, testing and handover of a commissioned facility.</p>
         </div>
       </div>
-      <QuoteButton />
+      <QuoteButton text="START YOUR PROJECT NOW" />
     </section>
   );
 }
