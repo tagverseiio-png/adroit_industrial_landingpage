@@ -173,7 +173,7 @@ section{padding:110px 0;}
 /* ---------- CTA ---------- */
 .cta{background:var(--plate); color:var(--steel); text-align:center;}
 .cta h2{font-size:clamp(22px,2.8vw,34px); margin-bottom:20px; text-transform:uppercase;}
-.cta p{max-width:520px; margin:0 auto 34px; color:#3a2a0e;}
+.cta p{max-width:520px; margin:0 auto 34px; color:#454138;}
 .cta-form{max-width:640px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:14px;}
 .cta-form input, .cta-form select, .cta-form textarea{background:rgba(18,22,26,0.07); border:1px solid rgba(18,22,26,0.35); padding:14px 16px; font-family:var(--body); color:var(--steel); font-size:14px; border-radius:2px;}
 .cta-form textarea{grid-column:1/-1; min-height:90px; resize:vertical;}
