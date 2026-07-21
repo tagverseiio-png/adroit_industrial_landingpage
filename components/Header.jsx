@@ -1,10 +1,12 @@
 "use client";
 import { useState, useEffect } from 'react';
 import AdroitIcon from './AdroitIcon';
+import QuoteModal from './QuoteModal';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -44,12 +46,13 @@ export default function Header() {
         </div>
         <div className="nav-cta">
           <a href="tel:+919000000000" className="btn small">📞 +91 90000 00000</a>
-          <a href="#contact" className="btn solid">Get a Quote</a>
+          <button className="btn solid" onClick={() => setModalOpen(true)}>Get a Quote</button>
           <button className="menu-btn" aria-label="Menu" onClick={() => setMenuOpen(!menuOpen)}>
             <span></span><span></span><span></span>
           </button>
         </div>
       </nav>
+      <QuoteModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
     </header>
   );
 }
