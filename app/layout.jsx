@@ -1,4 +1,5 @@
 import './globals.css';
+import FloatingActions from '../components/FloatingActions';
 
 export const metadata = {
   title: 'Adroit Design | Industrial Architectural Design, PEB, Civil, MEP, HVAC, FPS & PMC',
@@ -50,7 +51,10 @@ export default function RootLayout({ children }) {
           ]
         }) }} />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <FloatingActions />
+      </body>
     </html>
   );
 }

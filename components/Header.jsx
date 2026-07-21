@@ -12,8 +12,15 @@ export default function Header() {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
     };
+    const handleOpenModal = () => setModalOpen(true);
+    
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener('openQuoteModal', handleOpenModal);
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('openQuoteModal', handleOpenModal);
+    };
   }, []);
 
   return (
