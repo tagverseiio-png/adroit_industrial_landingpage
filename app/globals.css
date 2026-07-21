@@ -11,6 +11,7 @@
   --safety-soft:#d1b454;
   --truss:#4d7a95;
   --truss-soft:#8fb3c4;
+  --brass: #c5a059;
   --line:rgba(242,241,236,0.13);
   --line-dark:rgba(18,22,26,0.15);
   --display:'Michroma', sans-serif;
@@ -38,8 +39,15 @@ h1,h2,h3,h4{font-family:var(--display); font-weight:600; line-height:1.06; lette
 /* ---------- NAV ---------- */
 header{position:fixed; top:0; left:0; right:0; z-index:100; background:rgba(18,22,26,0.88); backdrop-filter:blur(10px); border-bottom:1px solid var(--line);}
 nav{display:flex; align-items:center; justify-content:space-between; gap:30px; padding:20px 32px; max-width:var(--maxw); margin:0 auto;}
-.logo{font-family:var(--display); font-size:20px; font-weight:700; letter-spacing:0.01em;}
-.logo span{color:var(--safety);}
+.logo {
+  font-family: var(--display);
+  font-size: 20px;
+  letter-spacing: 0.02em;
+}
+
+.logo span {
+  color: var(--brass);
+}
 .nav-links{display:flex; gap:32px; font-size:14px;}
 .nav-links a{opacity:0.85; transition:opacity .2s; white-space:nowrap;}
 .nav-links a:hover{opacity:1; color:var(--safety);}
