@@ -123,6 +123,8 @@ section{padding:110px 0;}
 .proj-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:24px;}
 .proj-card{border:1px solid var(--line); background:var(--steel); overflow:hidden;}
 .proj-thumb{aspect-ratio:4/3; background:linear-gradient(135deg, var(--truss) 0%, var(--steel-soft) 100%); position:relative;}
+.proj-thumb img { transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+.proj-card:hover .proj-thumb img { transform: scale(1.06); }
 .proj-thumb .tag{position:absolute; top:14px; left:14px; font-family:var(--mono); font-size:10px; letter-spacing:0.06em; text-transform:uppercase; color:var(--safety-soft); border:1px solid rgba(242,241,236,0.3); padding:4px 9px;}
 .proj-info{padding:20px 22px;}
 .proj-info h4{font-size:17px; margin-bottom:6px; font-weight:600;}
