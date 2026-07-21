@@ -17,6 +17,7 @@ export default function Header() {
   }, []);
 
   return (
+    <>
     <header style={{ boxShadow: scrolled ? '0 8px 24px rgba(0,0,0,0.25)' : 'none' }}>
       <nav>
         <a href="https://www.adroitdesigns.in/" className="logo" style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
@@ -52,7 +53,8 @@ export default function Header() {
           </button>
         </div>
       </nav>
-      <QuoteModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
     </header>
+    <QuoteModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
+    </>
   );
 }

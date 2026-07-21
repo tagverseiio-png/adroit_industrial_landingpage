@@ -1,6 +1,9 @@
+"use client";
 import React from 'react';
+import { useRouter } from 'next/navigation';
 
 export default function QuoteModal({ isOpen, onClose }) {
+  const router = useRouter();
   if (!isOpen) return null;
 
   return (
@@ -12,7 +15,11 @@ export default function QuoteModal({ isOpen, onClose }) {
           If you are interested in any of our services, please submit your basic details below and we will get back to you as soon as possible!
         </p>
         
-        <form className="modal-form" onSubmit={(e) => { e.preventDefault(); onClose(); }}>
+        <form className="modal-form" onSubmit={(e) => { 
+          e.preventDefault(); 
+          onClose(); 
+          router.push('/thank-you');
+        }}>
           <div className="form-grid">
             <input type="text" placeholder="Full Name" required />
             <input type="email" placeholder="Official Mail ID" required />

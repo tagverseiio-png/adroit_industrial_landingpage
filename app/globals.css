@@ -264,3 +264,36 @@ footer{background:var(--steel-soft); padding:70px 0 30px; border-top:1px solid v
   .modal-form .form-grid { grid-template-columns: 1fr; gap: 20px; }
   .modal-content { padding: 30px 20px; }
 }
+
+/* ---------- THANK YOU PAGE ---------- */
+.thank-you-page {
+  background: #121415; min-height: 100vh;
+  display: flex; align-items: center; justify-content: center;
+  padding: 100px 32px; position: relative; overflow: hidden;
+}
+.ty-container { max-width: 800px; width: 100%; margin: 0 auto; position: relative; z-index: 2; }
+.ty-icon {
+  width: 60px; height: 60px; background: #c5a165; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 30px; box-shadow: 0 0 0 10px rgba(197, 161, 101, 0.15);
+}
+.ty-title {
+  font-family: var(--display); font-size: clamp(50px, 7vw, 90px);
+  line-height: 0.95; margin-bottom: 24px; text-transform: uppercase; color: #fff;
+}
+.ty-desc {
+  font-size: 16px; color: #9a9a9a; margin-bottom: 45px; line-height: 1.7;
+}
+.ty-desc strong { color: #fff; font-weight: 600; }
+.ty-actions { display: flex; gap: 16px; margin-bottom: 70px; flex-wrap: wrap; }
+.ty-stats-divider { height: 1px; background: rgba(255,255,255,0.08); margin-bottom: 30px; max-width: 600px; }
+.ty-stats { display: flex; gap: 40px; flex-wrap: wrap; }
+.ty-stat { display: flex; flex-direction: column; border-left: 1px solid rgba(255,255,255,0.08); padding-left: 30px; }
+.ty-stat:first-child { border-left: none; padding-left: 0; }
+.ty-stat .num { font-family: var(--display); font-size: 32px; font-weight: 600; color: #fff; }
+.ty-stat .num span { color: #c5a165; }
+.ty-stat .lbl { font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; color: #666; font-family: var(--mono); margin-top: 5px; }
+
+/* Modifier for gold button */
+.btn.gold { background: #c5a165; color: #111; border-color: #c5a165; }
+.btn.gold:hover { background: #b08d53; border-color: #b08d53; }
