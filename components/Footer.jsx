@@ -7,9 +7,8 @@ export default function Footer() {
         <div className="wrap">
           <div className="footer-grid">
             <div className="footer-brand">
-              <a href="#top" className="logo" style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
-                <AdroitIcon width={64} height={64} />
-                <span style={{ textTransform: 'uppercase', color: 'white', letterSpacing: '3px', fontWeight: '600', fontSize: '1.1rem' }}>ADROIT DESIGN</span>
+              <a href="#top" className="logo">
+                Adroit <span>Design</span>
               </a>
               <p>Industrial architectural design, civil, PEB, MEP, HVAC, FPS, PMC and specialized project execution — engineered and delivered by one accountable team.</p>
             </div>

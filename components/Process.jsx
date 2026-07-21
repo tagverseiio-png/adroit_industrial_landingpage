@@ -9,7 +9,6 @@ export default function Process() {
           <h2>Four stages, one integrated team</h2>
           <p>This is the actual sequence every Adroit Design industrial project follows, from feasibility to commissioning.</p>
         </div>
-      </div>
       <div className="process-steps">
         <div className="pstep">
           <div className="step-no">01</div>
@@ -31,6 +30,7 @@ export default function Process() {
           <h4>Execution &amp; Commissioning</h4>
           <p>Civil, PEB erection, MEP, HVAC and FPS installation, testing and handover of a commissioned facility.</p>
         </div>
+      </div>
       </div>
       <QuoteButton text="START YOUR PROJECT NOW" />
     </section>
