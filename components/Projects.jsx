@@ -12,7 +12,7 @@ export default function Projects() {
         <div className="proj-grid">
           <div className="proj-card">
             <div className="proj-thumb" style={{ position: 'relative', overflow: 'hidden' }}>
-              <img src="/auto_plant.png" alt="Auto Component Plant" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
+              <img src="/auto_plant_new.jpg" alt="Auto Component Plant" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
               <span className="tag" style={{ position: 'relative', zIndex: 1 }}>PEB</span>
             </div>
             <div className="proj-info"><h4>Auto Component Plant, 65,000 sq.ft.</h4><p>PEB Shed · Civil · MEP</p></div>
@@ -33,7 +33,7 @@ export default function Projects() {
           </div>
           <div className="proj-card">
             <div className="proj-thumb" style={{ position: 'relative', overflow: 'hidden' }}>
-              <img src="/fmcg_manufacturing.png" alt="FMCG Manufacturing Unit" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
+              <img src="/auto_plant.png" alt="FMCG Manufacturing Unit" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
               <span className="tag" style={{ position: 'relative', zIndex: 1 }}>Manufacturing</span>
             </div>
             <div className="proj-info"><h4>FMCG Manufacturing Unit</h4><p>Architecture · Civil · MEP</p></div>
