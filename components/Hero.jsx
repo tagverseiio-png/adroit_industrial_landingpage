@@ -17,23 +17,12 @@ export default function Hero() {
             <div><span className="num">4-8 Mo</span><span className="lbl">Avg. Shed Delivery</span></div>
           </div>
         </div>
-        <div className="truss-box">
-          <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid meet">
-            <line className="tr-line" x1="20" y1="440" x2="380" y2="440"/>
-            <line className="tr-line" x1="40" y1="440" x2="40" y2="80"/>
-            <line className="tr-line" x1="360" y1="440" x2="360" y2="80"/>
-            <line className="tr-line" x1="40" y1="80" x2="200" y2="20"/>
-            <line className="tr-line" x1="360" y1="80" x2="200" y2="20"/>
-            <line className="tr-line" x1="40" y1="80" x2="120" y2="140"/>
-            <line className="tr-line" x1="120" y1="140" x2="200" y2="20"/>
-            <line className="tr-line" x1="200" y1="20" x2="280" y2="140"/>
-            <line className="tr-line" x1="280" y1="140" x2="360" y2="80"/>
-            <line className="tr-line" x1="120" y1="140" x2="120" y2="440"/>
-            <line className="tr-line" x1="280" y1="140" x2="280" y2="440"/>
-            <line className="tr-line" x1="200" y1="20" x2="200" y2="440"/>
-            <rect className="tr-fill" x="150" y="360" width="100" height="80" opacity="0"/>
-          </svg>
-          <span className="tag">Structural Frame → PEB Erection</span>
+        <div className="hero-image-wrapper" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
+          <img 
+            src="/hero image.png" 
+            alt="Adroit Industrial Building" 
+            style={{ width: '100%', maxWidth: '500px', height: 'auto', borderRadius: '8px', objectFit: 'cover' }} 
+          />
         </div>
       </div>
     </section>
