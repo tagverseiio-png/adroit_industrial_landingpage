@@ -7,6 +7,12 @@ export const metadata = {
   keywords: 'industrial architectural design, industrial civil contractor, PEB pre-engineered buildings, MEP contractor, HVAC design and installation, fire protection system FPS, PMC project management consultancy, industrial interior design, industrial project execution company, specialized industrial projects',
 };
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
